@@ -1,0 +1,11 @@
+create table customers
+(
+cust_id int,
+cust_product string,
+reviews string
+)
+
+insert into customers values (1001,'mobile','good')
+insert into customers values(2001,'laptop','not_good')
+insert into customers values(1050,'charger','normal')
+insert into customers(8399,'powerbank','better')
